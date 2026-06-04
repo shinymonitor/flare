@@ -2,8 +2,7 @@
     <img src="assets/LOGO.png", width="200">
     <h1>FLARE Prediction Engine</h1>
 </div>
-
-FLARE (Field Learnable ARbitrary Event) Prediction Engine is an on-device-learning event prediction engine. It requires no pre-training, labeling or prior knowledge of the usage. It uses a neural network that learns the signatures of any detectable event directly in the field. 
+FLARE (Field Learnable ARbitrary Event) Prediction Engine is a self-supervised closed-loop event prediction algorithm that has automatic online adaptation. It requires no pre-training, labeling or prior knowledge of the usage. It uses a neural network that learns the signatures of any detectable event directly in the field. 
 
 ## How It Works
 
@@ -17,7 +16,7 @@ Then it waits to see if its prediction was correct or not. If it was incorrect (
 
 In conventional embedded ML, a model is trained offline on a known dataset and deployed as a static artifact. It cannot adapt to a new environment, a new signal source, or a new definition of "event" without going back to a development machine.
 
-FLARE is self-supervised closed-loop learning algorithm that has automatic online adaptation.
+FLARE has automatic online adaptation and self-supervised closed-loop learning.
 
 ## Target applications
 
