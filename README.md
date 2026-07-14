@@ -37,4 +37,8 @@ It reads 8-bit input from GPIO pins 0-7, detects events on GPIO pin 8, and outpu
 
 ### STM32F413H-DISCO
 
-(WIP)
+Compile with Eclipse (Embedded C++).
+It reads 8-bit input from GPIO pins D0-D7, detects events on GPIO pin A0, and outputs predictions on GPIO pin A1. 
+- GPIO D0-D7 : 8-bit input
+- GPIO A0    : Event detect
+- GPIO A1    : Event predict
